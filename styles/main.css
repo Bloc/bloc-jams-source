@@ -66,6 +66,10 @@ body {
     max-width: 64rem;
 }
 
+.container.narrow {
+    max-width: 56rem;
+}
+
 /* Medium and small screens (640px) */
 @media (min-width: 40rem) {
     html { font-size: 112%; }
