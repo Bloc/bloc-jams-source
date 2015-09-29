@@ -125,7 +125,10 @@
     margin-top: -0.25rem;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 100ms ease-in-out;
+    transition: width 100ms ease-in-out,
+                height 100ms ease-in-out,
+                margin-top 100ms ease-in-out,
+                margin-left 100ms ease-in-out;
 }
 
 .seek-bar:hover .thumb {
