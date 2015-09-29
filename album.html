@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/album.css">
+        <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
     </head>
     <body class="album">
         <nav class="navbar">
@@ -33,6 +34,42 @@
             <table class="album-view-song-list">
             </table>
         </main>
+        
+        <section class="player-bar">
+            <div class="container">
+                <div class="control-group main-controls">
+                    <a class="previous">
+                        <span class="ion-skip-backward"></span>
+                    </a>
+                    <a class="play-pause">
+                        <span class="ion-play"></span>
+                    </a>
+                    <a class="next">
+                        <span class="ion-skip-forward"></span>
+                    </a>
+                </div>
+                <div class="control-group currently-playing">
+                    <h2 class="song-name">My dumb song</h2>
+                    <h2 class="artist-song-mobile">My dumb song - Fallout Boy</h2>
+                    <h3 class="artist-name">Fallout Boy</h3>
+                    <div class="seek-control">
+                        <div class="seek-bar">
+                            <div class="fill"></div>
+                            <div class="thumb"></div>
+                        </div>
+                        <div class="current-time">2:30</div>
+                        <div class="total-time">4:45</div>
+                    </div>
+                </div>
+                <div class="control-group volume">
+                    <span class="icon ion-volume-high"></span>
+                        <div class="seek-bar">
+                            <div class="fill"></div>
+                            <div class="thumb"></div>
+                        </div>
+                </div>
+            </div>
+        </section>
         <script src="scripts/album.js"></script>
     </body>
 </html>
